@@ -35,17 +35,22 @@ export default function Search(props) {
     if (loaded) {
         return (
             <div className="Search">
-                <form onSubmit={handleSubmit}>
-                    <div>
-                        <i className="fa fa-search" aria-hidden="true"></i>
-                        <input 
-                        type="search" 
-                        placeholder="Enter a word..."
-                        onChange={handleWordSearch}
-                        style={{ width: 300 }}
-                        />
-                    </div>
-                </form>
+                <section>
+                    <form onSubmit={handleSubmit}>
+                        <div>
+                            <i className="fa fa-search" aria-hidden="true"></i>
+                            <input 
+                            type="search" 
+                            placeholder="Enter a word..."
+                            onChange={handleWordSearch}
+                            style={{ width: 300 }}
+                            />
+                        </div>
+                        <div className="hint">
+                            suggested word: valley, bicycle, fire... 
+                        </div>
+                    </form>
+                </section>
                 <Results results={newResults} />
             </div>
     );
