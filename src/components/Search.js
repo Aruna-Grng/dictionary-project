@@ -43,7 +43,7 @@ export default function Search(props) {
                             type="search" 
                             placeholder="Enter a word..."
                             onChange={handleWordSearch}
-                            style={{ width: 300 }}
+                            // style={{ width: 300 }}
                             />
                         </div>
                         <div className="hint">

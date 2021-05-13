@@ -4,7 +4,7 @@ export default function Example(props) {
     if (props.wordExample) {
         return (
             <div>
-                <strong>Example:</strong> <em>{props.wordExample}</em>
+                <em>{props.wordExample}</em>
             </div>
         )
     } else {

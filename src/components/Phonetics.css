@@ -1,5 +1,9 @@
-a {
-    margin-right: 20px;
+.Phonetics {
+    height: 50px;
+}
+
+.Phonetics a {
+    margin: 0px 20px 50px 0;
     border: 1px solid #ddd;
     padding: 10px 20px;
     border-radius: 20px;
