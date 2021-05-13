@@ -1,1 +1,23 @@
+body {
+    background-image: url(../src/image.jpg) ;
+    background-size: cover;
+}
+
+.container {
+    font-family: Verdana,sans-serif;
+    width: 650px;
+    margin: auto;
+}
+
+.App-header {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.App-header h1 {
+    margin-bottom: 0px;
+}
+.App-header h2 {
+    margin-top: 5px;
+}
 

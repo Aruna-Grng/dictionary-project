@@ -1,0 +1,21 @@
+a {
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(2, 75, 170);
+    font-weight: bold;
+    color: white;
+    transition: all .3s ease-in-out;
+    opacity: 0.6;
+
+}
+
+a:hover {
+    opacity: 1;    
+}
+
+.text {
+    font-weight: bold;
+}
