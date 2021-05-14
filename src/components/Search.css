@@ -1,10 +1,10 @@
 .Search section {
     border: 1px solid #ddd;
-    border-radius: 30px;
+    border-radius: 25px;
     margin: 20px 0;
-    padding: 18px 25px 10px 25px;
+    padding: 18px 25px 14px 25px;
     box-shadow: 0 0 12px #ddd;
-    background-color: rgb(218, 214, 214);
+    background-color: rgb(223, 221, 221);
 }
 
 
@@ -17,12 +17,17 @@
 
 .hint {
     margin-top: 10px;
-    padding-left: 18px;
+    padding-left: 6px;
     font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.inputBar {
+    margin-left: -12px;
 }
 
 input {
-    padding: 2px 0 2px 25px;
+    padding: 2px 2px 2px 25px;
     border: 1px solid rgb(129, 128, 128);
     border-radius: 5px;
     width: 400px;

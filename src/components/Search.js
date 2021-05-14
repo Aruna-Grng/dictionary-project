@@ -37,17 +37,16 @@ export default function Search(props) {
             <div className="Search">
                 <section>
                     <form onSubmit={handleSubmit}>
-                        <div>
+                        <div className="inputBar">
                             <i className="fa fa-search" aria-hidden="true"></i>
                             <input 
                             type="search" 
                             placeholder="Enter a word..."
                             onChange={handleWordSearch}
-                            // style={{ width: 300 }}
                             />
                         </div>
                         <div className="hint">
-                            suggested word: valley, bicycle, fire, plant... 
+                            suggested word: valley, bicycle, wine, coat... 
                         </div>
                     </form>
                 </section>

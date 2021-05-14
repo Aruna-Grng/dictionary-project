@@ -3,8 +3,12 @@ body {
     background-size: cover;
 }
 
+div h1 {
+    font-size: 38px;
+}
+
 .container {
-    font-family: Verdana,sans-serif;
+    font-family: Roboto,arial,sans-serif;
     width: 650px;
     margin: auto;
 }

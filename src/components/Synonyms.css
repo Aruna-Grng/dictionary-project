@@ -1,0 +1,11 @@
+.Synonyms span {
+    margin-right: 25px;
+    display: inline-block;
+    /* line-height: 3; */
+    font-size: 13px;
+}
+
+.Synonyms {
+    margin: 10px 0 25px 0;
+
+}
