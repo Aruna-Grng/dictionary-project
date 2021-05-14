@@ -9,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
           <h2>Search for a word...</h2>
         </div>
-          <Search defaultKeyword="love" />
+          <Search defaultKeyword="hello" />
       </div>
     </div>
   );
