@@ -3,10 +3,6 @@ body {
     background-size: cover;
 }
 
-div h1 {
-    font-size: 38px;
-}
-
 p {
     text-align: center;
     font-size: 14px;
@@ -27,8 +23,11 @@ p {
 
 .App-header h1 {
     margin-bottom: 0px;
+    font-size: 38px;
+    font-weight: bold;
 }
 .App-header h2 {
     margin-top: 5px;
+    font-weight: bold;
 }
 
