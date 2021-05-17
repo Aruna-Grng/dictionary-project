@@ -10,7 +10,7 @@ function App() {
           <h2>Search for a word...</h2>
         </div>
           <Search defaultKeyword="bird" />
-          <p>Open source in <a href="https://github.com/Aruna-Grng/dictionary-project" target="_blank" rel="noreferrer">Github</a> by Aruna Gurung. </p>
+          <p>Open source code in <a href="https://github.com/Aruna-Grng/dictionary-project" target="_blank" rel="noreferrer">Github</a> by Aruna Gurung and hosted on <a href="https://frosty-borg-2148a2.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>. </p>
       </div>
     </div>
   );
