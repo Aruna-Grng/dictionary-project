@@ -7,6 +7,13 @@ div h1 {
     font-size: 38px;
 }
 
+p {
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(223, 221, 221);
+    border-radius: 25px;
+}
+
 .container {
     font-family: Roboto,arial,sans-serif;
     width: 650px;
