@@ -25,7 +25,7 @@ export default function Search(props) {
         axios.get(apiUrl).then(handleSearch);
 
         const pexelsApiKey = "563492ad6f91700001000001896266c00f8942cd82b03c0eb4474800";
-        let pexelUrl =`https://api.pexels.com/v1/search?query=${newWord}&per_page=1`;
+        let pexelUrl =`https://api.pexels.com/v1/search?query=${newWord}&per_page=9`;
         let headers = {"Authorization" : `Bearer ${pexelsApiKey}`};
         axios.get(pexelUrl, { headers: headers }).then(handlePicture);
     }
@@ -54,6 +54,7 @@ export default function Search(props) {
                             <input 
                             type="search" 
                             placeholder="Enter a word..."
+                            autoFocus="on"
                             onChange={handleWordSearch}
                             />
                         </div>
